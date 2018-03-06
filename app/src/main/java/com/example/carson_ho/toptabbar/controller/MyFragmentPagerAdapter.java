@@ -1,8 +1,13 @@
-package com.example.carson_ho.toptabbar;
+package com.example.carson_ho.toptabbar.controller;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.carson_ho.toptabbar.view.Fragment1;
+import com.example.carson_ho.toptabbar.view.Fragment2;
+import com.example.carson_ho.toptabbar.view.Fragment3;
+import com.example.carson_ho.toptabbar.view.Fragment4;
 
 /**
  * Created by Carson_Ho on 16/7/22.

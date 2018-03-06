@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:hint="昵称"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_centerVertical="true"
+        android:hint="学号"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_marginBottom="34dp"
+        android:hint="手机号"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/editText6"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginBottom="22dp"
+        android:hint="密码"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginBottom="55dp"
+        android:background="#40E0D0"
+        android:text="立即注册"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</RelativeLayout>
