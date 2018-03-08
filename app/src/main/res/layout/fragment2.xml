@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<include layout="@layout/titile"/>
+
+    <!--tab页 房间类型选择-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorButtonNormal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/single_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@android:color/transparent"
+
+
+                android:src="@drawable/lpj_single" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="单人间"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/two_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/lpj_two" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="双人间"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/three_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/lpj_three" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="三人间"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--自动或手动定位我的位置-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorGrey"
+        android:orientation="horizontal"
+        android:paddingBottom="35sp"
+        android:paddingLeft="85sp"
+        android:paddingRight="85sp"
+        android:paddingTop="35sp"
+        tools:background="@color/colorGrey">
+
+        <ImageButton
+            android:id="@+id/mapLocation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            app:srcCompat="@drawable/lpj_map_orgin" />
+
+        <TextView
+            android:id="@+id/mLocation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@android:color/white"
+            android:text="选择我的位置"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+<!--网格布局，设置时间段-->
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:columnCount="5"
+    android:rowCount="5"
+    >
+    <Button android:id="@+id/b1" android:text="9:00"  android:background="@drawable/btn_st" />
+    <Button android:id="@+id/b2" android:text="9:30"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b3" android:text="10:00"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b4" android:text="10:30"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b5" android:text="11:00"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b6" android:text="11:30"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b7" android:text="12:00"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b8" android:text="12:30"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b9" android:text="12:30"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b10" android:text="13:30"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b11" android:text="14:00"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b12" android:text="14:30"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b13" android:text="15:00"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b14" android:text="15:30"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b15" android:text="16:00"  android:background="@drawable/btn_st"/>
+
+
+
+
+</GridLayout>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_blue_light"
+
+        android:text="确认"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
