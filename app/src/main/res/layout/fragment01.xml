@@ -11,6 +11,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="194dp"
+        android:singleLine="true"
+        android:inputType="textNoSuggestions"
         android:hint="学号"
         android:textColor="@android:color/black"
         android:textSize="15sp" />
@@ -22,6 +24,8 @@
         android:layout_alignStart="@+id/editText1"
         android:layout_below="@+id/editText1"
         android:layout_marginTop="30dp"
+        android:singleLine="true"
+        android:inputType="textNoSuggestions"
         android:hint="手机号"
         android:textColor="@android:color/black"
         android:textSize="15sp" />
@@ -33,9 +37,12 @@
         android:layout_alignStart="@+id/editText2"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="30dp"
+        android:singleLine="true"
+        android:inputType="textNoSuggestions"
         android:hint="密码"
         android:textColor="@android:color/black"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:password="true"/>
 
     <Button
         android:id="@+id/button3"
@@ -43,9 +50,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/editText3"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="55dp"
         android:background="#40E0D0"
         android:text="立即登录"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"/>
+        android:textSize="18sp" />
 </RelativeLayout>

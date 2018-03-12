@@ -56,7 +56,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="37dp"
-        android:background="@color/colorWhite">
+        android:background="@color/colorGrey">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -65,8 +65,8 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="45dp"
-            android:layout_marginStart="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             app:srcCompat="@mipmap/card" />
 
         <TextView
@@ -85,19 +85,19 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/colorGrey"
+        android:background="@color/colorWhite"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:background="@color/colorWhite"
+        android:background="@color/colorGrey"
         android:orientation="horizontal">
 
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/colorWhite">
+            android:background="@color/colorGrey">
 
             <TextView
                 android:id="@+id/deposit"
@@ -175,15 +175,15 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/colorGrey"
+        android:background="@color/colorWhite"
         />
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:background="@color/colorWhite"
+        android:background="@color/colorGrey"
         android:orientation="horizontal">
 
         <ImageView
@@ -223,19 +223,19 @@
             android:layout_marginBottom="26dp"
             android:layout_toStartOf="@+id/integralValue"
             android:text="183****4124"
-            android:textColor="@color/colorWhite" />
+            android:textColor="@color/colorGrey" />
     </RelativeLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/colorGrey"
+        android:background="@color/colorWhite"
         />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/colorWhite"
+        android:layout_height="50dp"
+        android:background="@color/colorGrey"
         android:orientation="horizontal">
 
         <ImageView
@@ -268,37 +268,14 @@
 
     </RelativeLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorWhite"
+        />
     <ListView
         android:id = "@+id/list_view"
         android:layout_width="match_parent"
-        android:layout_height="120dp"></ListView>
+        android:layout_height="120dp"/>
 
-    <!--<TextView-->
-    <!--android:id="@+id/txt_topbar"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="50dp"-->
-    <!--android:layout_centerInParent="true"-->
-    <!--android:gravity="center"-->
-    <!--android:text="私人自习室"-->
-    <!--android:background="@color/colorPrimary"-->
-    <!--android:textColor="@color/colorWhite"-->
-    <!--android:textSize="18sp" />-->
-    <!--<android.support.v4.view.ViewPager-->
-    <!--android:id="@+id/viewPager"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="0dp"-->
-    <!--android:layout_weight="1"/>-->
-
-    <!--<android.support.design.widget.TabLayout-->
-    <!--android:id="@+id/tabLayout"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="60dp"-->
-    <!--android:background="#ffff00"-->
-
-    <!--app:tabIndicatorHeight="20dp"-->
-    <!--app:tabTextColor="@color/colorPrimary"-->
-    <!--app:tabSelectedTextColor="#CC33FF"-->
-    <!--app:tabMode="fixed"-->
-    <!--app:tabBackground="@drawable/selected"-->
-    <!--/>-->
 </LinearLayout>

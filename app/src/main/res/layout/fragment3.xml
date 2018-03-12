@@ -78,7 +78,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="单人间"
+                    android:text="待付款"
                     android:textAlignment="center" />
             </LinearLayout>
 
@@ -98,7 +98,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="双人间"
+                    android:text="待使用"
                     android:textAlignment="center" />
             </LinearLayout>
 
@@ -118,7 +118,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="三人间"
+                    android:text="退款"
                     android:textAlignment="center" />
             </LinearLayout>
 
@@ -138,7 +138,7 @@
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/orderList">
+        android:id="@+id/ordersList">
 
 
     </android.support.v7.widget.RecyclerView>

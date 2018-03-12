@@ -7,23 +7,25 @@
     android:orientation="vertical"
     tools:context=".view.MainActivity">
 
+
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
+
     <android.support.design.widget.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="90dp"
         android:background="#ffff00"
-        app:tabIndicatorColor="#66ff33"
+        app:tabIndicatorColor="@color/colorBlcak"
         app:tabIndicatorHeight="20dp"
         app:tabTextColor="@color/colorPrimary"
-        app:tabSelectedTextColor="#CC33FF"
+        app:tabSelectedTextColor="@color/colorPrimary"
         app:tabMode="fixed"
-        app:tabBackground="@drawable/selected"/>
+        app:tabBackground="@color/colorWhite"/>
 
 
 </LinearLayout>

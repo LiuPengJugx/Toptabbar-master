@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.carson_ho.toptabbar.view.CountMangerActivity">
+    tools:context="com.example.carson_ho.toptabbar.ui.activity.CountMangerActivity">
 
     <RelativeLayout
         android:id="@+id/rl_HeadPortrait"

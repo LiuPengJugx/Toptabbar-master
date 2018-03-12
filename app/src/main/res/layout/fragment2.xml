@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:background="@android:color/transparent"
+                android:background="@color/colorWhite"
 
 
                 android:src="@drawable/lpj_single" />
@@ -36,6 +36,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
                 android:text="单人间"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
@@ -52,12 +53,13 @@
                 android:id="@+id/two_room"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
+                android:background="@color/colorWhite"
                 android:src="@drawable/lpj_two" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
                 android:text="双人间"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
@@ -74,12 +76,13 @@
                 android:id="@+id/three_room"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
+                android:background="@color/colorWhite"
                 android:src="@drawable/lpj_three" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
                 android:text="三人间"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
@@ -129,8 +132,8 @@
     android:columnCount="5"
     android:rowCount="5"
     >
-    <Button android:id="@+id/b1" android:text="9:00"  android:background="@drawable/btn_st" />
-    <Button android:id="@+id/b2" android:text="9:30"  android:background="@drawable/btn_st"/>
+    <Button android:id="@+id/b1" android:text="09:00"  android:background="@drawable/btn_st" />
+    <Button android:id="@+id/b2" android:text="09:30"  android:background="@drawable/btn_st"/>
     <Button android:id="@+id/b3" android:text="10:00"  android:background="@drawable/btn_st"/>
     <Button android:id="@+id/b4" android:text="10:30"  android:background="@drawable/btn_st"/>
     <Button android:id="@+id/b5" android:text="11:00"  android:background="@drawable/btn_st"/>

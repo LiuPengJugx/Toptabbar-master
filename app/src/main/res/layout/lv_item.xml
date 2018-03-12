@@ -25,4 +25,22 @@
         android:layout_toEndOf="@+id/lv_image"
         android:text="af;dfldsf;adfddaslf;a"
         android:textColor="@color/colorBlcak" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lv_text"
+        android:layout_below="@+id/lv_text"
+        android:layout_marginTop="45dp"
+        android:text="author" />
+
+    <TextView
+        android:id="@+id/currentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lv_image"
+        android:layout_alignStart="@+id/author"
+        android:layout_marginBottom="18dp"
+        android:text="date" />
 </RelativeLayout>

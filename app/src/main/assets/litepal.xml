@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <litepal>
-    <dbname value="RoomStore"/>
-    <version value="1"/>
+    <dbname value="RoomStore1"/>
+    <version value="3"/>
     <list>
-        <mapping class="com.example.carson_ho.toptabbar.bean.Order"/>
+        <mapping class="com.example.carson_ho.toptabbar.bean.Orders"/>
         <mapping class="com.example.carson_ho.toptabbar.bean.Room"/>
         <mapping class="com.example.carson_ho.toptabbar.bean.User"/>
-
+        <mapping class="com.example.carson_ho.toptabbar.bean.Article"/>
     </list>
 </litepal>
 
